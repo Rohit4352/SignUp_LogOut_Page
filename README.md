@@ -18,4 +18,5 @@ NOTE: validator functions
 > removeToken(): this function removes the token from the local storage.
 > 
 ![Screenshot 2023-07-29 200802](https://github.com/Rohit4352/SignUp_LogOut_Page/assets/65344659/aed039dd-fb58-474b-b7d3-46f8a43f3825)
-![Uploading Screenshot 2023-07-29 201027.jpg…]()
+
+![Screenshot 2023-07-29 201027](https://github.com/Rohit4352/SignUp_LogOut_Page/assets/65344659/51061932-b1bb-4541-a157-0461e61ec04a)
