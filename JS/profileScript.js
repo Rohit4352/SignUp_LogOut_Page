@@ -1,7 +1,7 @@
 
 function viewProfile() {
     if(localStorage.getItem("token") === null){
-        window.location.href = "../signUp.html";
+        window.location.href = "../index.html";
     }
     
     document.getElementsByTagName("BODY")[0].style.background = "linear-gradient(25deg, #5bf7db 0 50%, #F8FAF5 50% 100%)";
@@ -17,7 +17,7 @@ function viewProfile() {
 function removeToken() {
     localStorage.removeItem("token");
     alert("done");
-    window.location.href = "../signUp.html";
+    window.location.href = "../index.html";
 }
 
 window.tabs.reload();
