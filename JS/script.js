@@ -2,7 +2,7 @@ const form = document.querySelector("form")
 
 function checkToken() {
     if(localStorage.getItem("token") != null){
-        window.location.href = "profilePage.html";
+        window.location.href = "Profile/profilePage.html";
     }
 }
 
@@ -25,7 +25,7 @@ form.addEventListener("submit", (e) =>{
         localStorage.token = token;
         localStorage.password = password;
         console.log(token);
-        window.location.href = "profilePage.html";
+        window.location.href = "Profile/profilePage.html";
     }
     else{
         var f = document.getElementById("myForm").elements;
@@ -64,3 +64,5 @@ function generateToken(length) {
 
     return result;
 }
+
+window.tabs.reload();
