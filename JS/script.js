@@ -1,5 +1,9 @@
 const form = document.querySelector("form")
 
+var blurred = false;
+window.onblur = function() { blurred = true; };
+window.onfocus = function() { blurred && (location.reload()); };
+
 function checkToken() {
     if(localStorage.getItem("token") != null){
         window.location.href = "Profile/profilePage.html";
@@ -64,5 +68,3 @@ function generateToken(length) {
 
     return result;
 }
-
-window.tabs.reload();

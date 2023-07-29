@@ -1,3 +1,6 @@
+var blurred = false;
+window.onblur = function() { blurred = true; };
+window.onfocus = function() { blurred && (location.reload()); };
 
 function viewProfile() {
     if(localStorage.getItem("token") === null){
@@ -19,5 +22,3 @@ function removeToken() {
     alert("done");
     window.location.href = "../index.html";
 }
-
-window.tabs.reload();
