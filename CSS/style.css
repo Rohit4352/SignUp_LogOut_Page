@@ -116,3 +116,14 @@ h1 {
 #success-msg {
     display: none;
 }
+
+@media (max-width: 1040px) {
+    .box {
+        width: 25em;
+    }
+}
+@media (max-width: 768px) {
+    .box {
+        width: 20em;
+    }
+}
